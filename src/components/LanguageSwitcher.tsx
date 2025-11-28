@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { type Locale, locales, useLocale } from "@/i18n";
+import { type Locale, locales, useLocaleContext } from "@/i18n";
 
 const localeNames: Record<Locale, string> = {
   en: "English",
@@ -10,7 +10,7 @@ const localeNames: Record<Locale, string> = {
 
 export function LanguageSwitcher() {
   const t = useTranslations("common");
-  const { locale, setLocale } = useLocale();
+  const { locale, setLocale } = useLocaleContext();
 
   return (
     <select
