@@ -1,0 +1,11 @@
+{
+  "home": {
+    "title": "시작하려면 page.tsx 파일을 편집하세요.",
+    "description": "시작점이나 더 많은 지침을 찾고 계신가요? <templates>템플릿</templates>이나 <learning>학습</learning> 센터를 방문하세요.",
+    "deployNow": "지금 배포하기",
+    "documentation": "문서"
+  },
+  "common": {
+    "selectLanguage": "언어 선택"
+  }
+}
